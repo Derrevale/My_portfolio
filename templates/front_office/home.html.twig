@@ -1,0 +1,94 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <section class="container-fluid jumbotron mb-5 mt-5 primary-bg">
+        <div  class="container text-center align-items-center align-content-center">
+            <header>
+                <img src="uploads/my_dum_head.png" alt="Valentin Derreumaux" class="w-25 p-3 align-content-center" style="border-radius: 50%;">
+                <h1>Valentin DERREUMAUX</h1>
+                <p>Technicien Informatique / Bachelier en informatique</p>
+            </header>
+        </div>
+    </section>
+
+    <section id="Cv" class="container-fluid mb-5 jumbotron thirdary-bg">
+        <div class="container text-center align-items-center align-content-center">
+            <h2>Qui suis-je ? </h2>
+            <p>Je suis étudiant en Bac 3 a l'Ephec Louvain-La-Neuve</p>
+            <p>Passionner d'informatique et fraichement qualifié, j'ai décidé de poursuivre mes études en informatique afin d'acquérir de plus amples connaissances.</p>
+            <form>
+                <input type="button" value="Download CV" onclick="window.location.href='uploads/Valentin_Derreumaux_Curriculum_vitæ.pdf'">
+            </form>
+        </div>
+    </section>
+
+    <div class="row">
+        <div class="col-12">
+            <section id="Cv" class="container-fluid mb-5 jumbotron thirdary-bg">
+                <div class="container text-center align-items-center align-content-center">
+                    <h3>Compétences</h3>
+                    <ul class="list-group" id="skills">
+
+                    </ul>
+                </div>
+            </section>
+
+            <section id="Cv" class="container-fluid mb-5 jumbotron thirdary-bg">
+                <div class="container text-center align-items-center align-content-center">
+                    <h3>PorteFolio</h3>
+                    <div id="references" class="row"></div>
+                </div>
+            </section>
+
+            <section id="Cv" class="container-fluid mb-5 jumbotron thirdary-bg">
+                <div class="container text-center align-items-center align-content-center">
+                    <div class="container">
+                        <div class="text-center text-capitalize mb-5">
+                            <h1>Mes compétences Informatiques</h1>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-3">
+                                <img src="uploads/Angular_full_color_logo.svg" alt="" class="rounded mx-auto d-block language-logo" width="100" height="100">
+                            </div>
+                            <div class="col-3">
+                                <img src="uploads/nodejs-seeklogo.com.svg" alt="" class="rounded mx-auto d-block language-logo" width="100" height="100">
+                            </div>
+                            <div class="col-3">
+                                <img src="uploads/Typescript_logo_2020.svg" alt="" class="rounded mx-auto d-block language-logo" width="100" height="100">
+                            </div>
+                            <div class="col-3">
+                                <img src="uploads/PHP-logo.svg" alt="" class="rounded mx-auto d-block language-logo" width="100" height="100">
+                            </div>
+                            <div class="col-3">
+                                <img src="uploads/c-seeklogo.com.svg" alt="" class="rounded mx-auto d-block language-logo" width="100" height="100">
+                            </div>
+                            <div class="col-3">
+                                <img src="uploads/Kotlin_Icon.svg" alt="" class="rounded mx-auto d-block language-logo" width="100" height="100">
+                            </div>
+                            <div class="col-3">
+                                <img src="uploads/Java_Logo.svg" alt="" class="rounded mx-auto d-block language-logo" width="100" height="100">
+                            </div>
+                            <div class="col-3">
+                                <img src="uploads/Spring_Framework_Logo_2018.svg" alt="" class="rounded mx-auto d-block language-logo" width="100" height="100">
+                            </div>
+                            <div class="col-3">
+                                <img src="uploads/Arduino_Logo.svg" alt="" class="rounded mx-auto d-block language-logo" width="100" height="100">
+                            </div>
+                            <div class="col-3">
+                                <img src="uploads/Linux_Logo_in_Linux_Libertine_Font.svg" alt="" class="rounded mx-auto d-block language-logo" width="100" height="100">
+                            </div>
+                            <div class="col-3">
+                                <img src="uploads/docker.svg" alt="" class="rounded mx-auto d-block language-logo" width="100" height="100">
+                            </div>
+                            <div class="col-3">
+                                <img src="uploads/symfony.svg" alt="" class="rounded mx-auto d-block language-logo" width="100" height="100">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </div>
+    </div>
+{% endblock %}
